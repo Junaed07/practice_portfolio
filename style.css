@@ -50,11 +50,30 @@ section {
     display: grid;
 }
 
+.last {
+    background-color: black;
+    text-align: center;
+}
+
+.A {
+    color: orange;
+}
+
+.B {
+    color: azure;
+}
+
+.C {
+    color: White;
+
+}
+
 
 
 .food-recipie {
     display: flex;
     padding: 20px;
+    margin-bottom: 150px;
 }
 
 .food-recipietwo {
@@ -81,10 +100,27 @@ section {
 .sccond-last {
     display: flex;
     padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
 .second-last {
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 5px 5px 1opx whitesmoke;
+    margin-left: 18%;
+    margin-right: 18%;
+    box-shadow: 3px 3px 5px gray;
+    padding-left: 8%;
+    border-radius: 20px;
+
+}
+
+.Junaed {
+    width: 33.33%;
+}
+
+.Junaed p {
+    line-break: normal;
+}
+
+h1 {
+    font-size: 40px;
 }
